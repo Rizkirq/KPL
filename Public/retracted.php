@@ -5,13 +5,13 @@ include '../includes/header.php';
 ?>
 <div class="flex h-screen mt-9">
     <!-- Sidebar -->
-    <div class="w-64 bg-indigo-600 text-white p-5 flex-shrink-0 h-full fixed">
+    <div class="w-64 bg-green-600 text-white p-5 flex-shrink-0 h-full fixed">
         <div class="text-xl font-bold mb-5">Dashboard</div>
         <ul>
-            <li class="mb-3"><a href="Post.php" class="block p-2 rounded hover:bg-indigo-500">+ New Post</a></li>
-            <li class="mb-3"><a href="dashboard.php" class="block p-2 rounded hover:bg-indigo-500">Post</a></li>
-            <li class="mb-3"><a href="retracted.php" class="block p-2 rounded hover:bg-indigo-500">Retracted Articles</a></li>
-            <li class="mb-3"><a href="logout.php" class="block p-2 rounded hover:bg-indigo-500">Logout</a></li>
+            <li class="mb-3"><a href="Post.php" class="block p-2 rounded hover:bg-green-800">+ New Post</a></li>
+            <li class="mb-3"><a href="dashboard.php" class="block p-2 rounded hover:bg-green-800">Post</a></li>
+            <li class="mb-3"><a href="retracted.php" class="block p-2 rounded hover:bg-green-800">Retracted Articles</a></li>
+            <li class="mb-3"><a href="logout.php" class="block p-2 rounded hover:bg-green-800">Logout</a></li>
         </ul>
     </div>
 
